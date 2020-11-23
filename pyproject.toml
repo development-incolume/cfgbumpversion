@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "incolumepy.cfgbumpversion"
-version = "0.4.2-dev0"
+version = "0.4.2-rc0"
 description = ""
 authors = ["britodfbr <britodfbr@gmail.com>"]
 packages = [
