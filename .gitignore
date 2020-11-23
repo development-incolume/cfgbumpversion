@@ -1,0 +1,5 @@
+.idea/
+Pipfile
+Pipfile.lock
+*.sw[op]
+*.py[cod]
