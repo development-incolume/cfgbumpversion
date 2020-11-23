@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "fake_project"
-version = "0.1.2-dev0"
+version = "0.1.2-rc0"
 description = ""
 authors = ["britodfbr <britodfbr@gmail.com>"]
 
