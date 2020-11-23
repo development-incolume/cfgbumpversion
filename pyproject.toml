@@ -1,9 +1,11 @@
 [tool.poetry]
-name = "fake_project"
+name = "incolumepy.cfgbumpversion"
 version = "0.4.0"
 description = ""
 authors = ["britodfbr <britodfbr@gmail.com>"]
-
+packages = [
+    { include = "incolumepy", from = "src" },
+]
 [tool.poetry.dependencies]
 python = "^3.8"
 toml = "^0.10.2"
