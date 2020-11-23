@@ -7,6 +7,14 @@ packages = [
     { include = "incolumepy", from = "src" },
 ]
 include = ["README.md"]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/incolumepy/cfgbumpversion/issues"
+"Home Page" = "https://github.com/incolumepy/cfgbumpversion/"
+"Oficial" = "https://github.com/incolumepy/cfgbumpversion/"
+"Source" = "https://github.com/incolumepy/cfgbumpversion/"
+"Documentation" = "https://github.com/incolumepy/cfgbumpversion/wiki"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 toml = "^0.10.2"
