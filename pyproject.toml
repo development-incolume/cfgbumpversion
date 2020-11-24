@@ -6,7 +6,30 @@ authors = ["britodfbr <britodfbr@gmail.com>"]
 packages = [
     { include = "incolumepy", from = "src" },
 ]
+keywords = ['Python', 'incolume']
+readme = "README.md"
 include = ["README.md"]
+# Get more strings from http://www.python.org/pypi?%3Aaction=list_classifiers
+classifiers = [
+  'Development Status :: 5 - Production/Stable',
+  # 'Development Status :: 4 - Beta',
+  'Operating System :: OS Independent',
+  'Natural Language :: Portuguese (Brazilian)',
+  'Programming Language :: Python',
+  'Programming Language :: Python :: 3.8',
+  'Programming Language :: Python :: 3.9',
+  "Topic :: Software Development :: Build Tools",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  'Topic :: Utilities',
+]
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/incolumepy/cfgbumpversion/issues"
+"Home Page" = "https://github.com/incolumepy/cfgbumpversion/"
+"Oficial" = "https://github.com/incolumepy/cfgbumpversion/"
+"Source" = "https://github.com/incolumepy/cfgbumpversion/"
+"Documentation" = "https://github.com/incolumepy/cfgbumpversion/wiki"
+
 [tool.poetry.dependencies]
 python = "^3.8"
 toml = "^0.10.2"
